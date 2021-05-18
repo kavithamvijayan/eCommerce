@@ -1,0 +1,20 @@
+{
+  "name": "ecommnode",
+  "version": "1.0.0",
+  "description": "assignment 4",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chanchal",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cookie-session": "^1.3.3",
+    "express": "^4.17.1",
+    "mongodb": "^3.3.5",
+    "nodemon": "^2.0.1"
+  }
+}
